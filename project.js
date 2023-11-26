@@ -1,7 +1,7 @@
 // JavaScript SLot Machine
 
 
-// Deposit some money
+// Variables
 const prompt = require("prompt-sync")();
 
 const ROWS = 3;
@@ -22,6 +22,7 @@ const SYMBOLS_VALUES = {
 
 };
 
+// Deposit some money
 const deposit = () => {
     while (true) {
         
